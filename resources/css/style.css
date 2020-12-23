@@ -2,7 +2,7 @@
 Orange color: #e67e22
 Darker orange: #cf6d17
 Carolina blue: #4B9CD3
-Darker blue: #348BC8
+Darker blue: #3480c7
 */
 
 
@@ -179,17 +179,17 @@ input[type=submit] {
 .btn:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #348BC8;
+    background-color: #3480C7;
 }
 
 .btn-full:hover,
 .btn-full:active {
-    border: 1px solid #348BC8;
+    border: 1px solid #3480C7;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #348BC8;
+    border: 1px solid #3480C7;
     color: #fff;
 }
 
@@ -224,7 +224,7 @@ header {
     margin-top: 20px;
 }
 
-.logo-black { 
+.logo-bar { 
     display: none;
     height: 50px;
     width: auto;
@@ -296,7 +296,7 @@ header {
 }
 
 .sticky .logo { display: none; }
-.sticky .logo-black { display: block; }
+.sticky .logo-bar { display: block; }
 
 /* ----------------------------------------------- */
 /* FEATURES */
@@ -435,8 +435,8 @@ header {
 /* ----------------------------------------------- */
 
 .section-testimonials {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers-min.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers-min.jpg);
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back_tar_heels.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back_tar_heels.png);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;

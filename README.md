@@ -12,10 +12,10 @@
 
 
 #todo:
-	send Dario email
-	look around for events format
-	logo
+	write events page
+	write puzzles page
+	add pawn to logo
+	add fontawesome
+	fix scrolling
+	look for photos
 	roast duke
-	look around for games format
-	fix button highlighting
-	get tarheels.live domain
