@@ -302,38 +302,40 @@ header {
 /* FEATURES */
 /* ----------------------------------------------- */
 
+/*
 .section-features .long-copy {
     margin-bottom: 30px;
 }
+*/
 
 
 /* ----------------------------------------------- */
-/* MEALS */
+/* ABOUT */
 /* ----------------------------------------------- */
 
-.section-meals {
+.section-about {
     padding: 0;
 }
 
-.meals-showcase {
+.chess-showcase {
     list-style: none;
     width: 100%;
 }
 
-.meals-showcase li {
+.chess-showcase li {
     display: block;
     float: left;
     width: 25%;
 }
 
-.meal-photo {
+.chess-photo {
     width: 100%;
     margin: 0;
     overflow: hidden;
     background-color: #000;
 }
 
-.meal-photo img {
+.chess-photo img {
     opacity: 0.7;
     width: 100%;
     height: auto;
@@ -344,7 +346,7 @@ header {
     transition: transform 0.5s, opacity 0.5s;
 }
 
-.meal-photo img:hover {
+.chess-photo img:hover {
     opacity: 1;
     -webkit-transform: scale(1.03);
     -ms-transform: scale(1.03);
@@ -354,69 +356,65 @@ header {
 
 
 /* ----------------------------------------------- */
-/* HOW IT WORKS SECTION */
+/* WHAT WE'RE DOING SECTION */
 /* ----------------------------------------------- */
 
-.section-steps {
+.section-events {
     background-color: #f4f4f4;
 }
 
-.steps-box {
-    margin-top: 30px;
+.event-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #efefef;
 }
 
-
-.steps-box:first-child {
-    text-align: right;
-    padding-right: 3%;
+.event-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
 }
 
-.steps-box:last-child {
-    text-align: left;
-    padding-left: 3%;
-    margin-top: 70px;
+.event-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
-.app-screen {
-    width: 40%;
-}
-
-.works-step {
-    margin-bottom: 50px;
-}
-
-.works-step:last-of-type {
-    margin-bottom: 80px;
-}
-
-.works-step div {
-    color: #4B9CD3;
-    font-size: 150%;
-    height: 54px;
-    width: 54px;
-    border: 2px solid #4B9CD3;
-    border-radius: 50%;
-    display: inline-block;
+.event-box div:last-child {
     text-align: center;
-    margin-right: 25px;
-    float: left;
-    padding: 5px;
-}
-
-.btn-app:link,
-.btn-app:visited {
     border: 0;
 }
 
-.btn-app img {
-    height: 50px;
-    width: auto;
-    margin-right: 10px;
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #4B9CD3;
 }
 
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.event-box ul {
+    list-style: none;
+}
+
+.event-box ul li {
+    padding: 5px 0;
+}
+*
 
 /* ----------------------------------------------- */
-/* CITIES */
+/* MEET OUR TEAM OF PAZTERS */
 /* ----------------------------------------------- */
 
 .box img {
@@ -431,10 +429,10 @@ header {
 
 
 /* ----------------------------------------------- */
-/* TESTIMONIALS */
+/* WHY WE'RE STILL BETTER THAN DUKE */
 /* ----------------------------------------------- */
 
-.section-testimonials {
+.section-duke {
     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back_tar_heels.png);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back_tar_heels.png);
     background-size: cover;
@@ -474,65 +472,18 @@ cite img {
 
 
 /* ----------------------------------------------- */
-/* SIGN UP */
+/* GAMES */
 /* ----------------------------------------------- */
 
-.section-plans {
+.section-games {
     background-color: #f4f4f4;
 }
 
-.plan-box {
-    background-color: #fff;
-    border-radius: 5px;
-    width: 90%;
-    margin-left: 5%;
-    box-shadow: 0 2px 2px #efefef;
-}
-
-.plan-box div {
-    padding: 15px;
-    border-bottom: 1px solid #e8e8e8;
-}
-
-.plan-box div:first-child {
-    background-color: #fcfcfc;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.plan-box div:last-child {
-    text-align: center;
-    border: 0;
-}
-
-
-.plan-price {
-    font-size: 300%;
-    margin-bottom: 10px;
-    font-weight: 100;
-    color: #4B9CD3;
-}
-
-.plan-price span {
-    font-size: 30%;
-    font-weight: 300;
-}
-
-.plan-price-meal {
-    font-size: 80%;
-}
-
-.plan-box ul {
-    list-style: none;
-}
-
-.plan-box ul li {
-    padding: 5px 0;
-}
-
+/*
+*/
 
 /* ----------------------------------------------- */
-/* FORM */
+/* WE'RE HAPPY TO HEAR FROM YOU */
 /* ----------------------------------------------- */
 
 .contact-form {
