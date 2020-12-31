@@ -411,7 +411,6 @@ header {
 .event-box ul li {
     padding: 5px 0;
 }
-*
 
 /* ----------------------------------------------- */
 /* MEET OUR TEAM OF PAZTERS */
@@ -438,6 +437,7 @@ header {
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
+    background-position: center;
 }
 
 blockquote {
@@ -479,8 +479,50 @@ cite img {
     background-color: #f4f4f4;
 }
 
-/*
-*/
+.game-box {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 0px;
+	height: 0;
+	overflow: hidden;
+}
+
+.game-box iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.game-text-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.game-text-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.game-text-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.game-text-box ul {
+    list-style: none;
+}
+
+.game-text-box ul li {
+    padding: 5px 0;
+}
+
+
 
 /* ----------------------------------------------- */
 /* WE'RE HAPPY TO HEAR FROM YOU */
