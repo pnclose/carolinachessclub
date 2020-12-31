@@ -359,6 +359,36 @@ header {
 /* WHAT WE'RE DOING SECTION */
 /* ----------------------------------------------- */
 
+/*
+center-calandar is to center the calendar, probably best to actually use grid, but for testing use this
+*/
+
+.center-calendar {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+/* Responsive iFrame */
+
+.calendar-box {
+    position: relative;
+    padding-bottom: 38%;
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+}
+
+.calendar-box iframe {
+    position: absolute;
+    top: auto;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+
+
 .section-events {
     background-color: #f4f4f4;
 }
