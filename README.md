@@ -5,7 +5,6 @@
 #todo:
 	add pawn to logo
 	add fontawesome
-	fix scrolling
 	look for photos
 	fix centering for title
 	finish about page
