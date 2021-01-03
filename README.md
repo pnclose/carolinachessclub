@@ -1,12 +1,10 @@
 #about:
-	write email to president for 
-		whether gmail is taken
+	* write email to president for whether gmail is taken
 
 #todo:
-	add pawn to logo
-	add fontawesome
-	look for photos
-	fix centering for title
-	finish about page
-	finish footer
-	finish google form/email
+	* add pawn to logo
+	* add fontawesome -- covid, handshake, backwards clock, manuscript
+	* fix centering for title
+	* finish about page -- add button
+	* contributors + privacy policy
+	* finish google form/email
