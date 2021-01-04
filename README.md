@@ -7,9 +7,6 @@
 
 # Todo
 
-* add pawn to logo
-* add fontawesome -- covid, handshake, backwards clock, manuscript
-* fix centering for title
+* finish google form/email
 * finish about page -- add button
 * contributors + privacy policy
-* finish google form/email
