@@ -109,6 +109,15 @@ h2:after {
 
 
 /* ----- ICONS ----- */
+
+.icon-awesome {
+    font-size: 350%;
+    display: block;
+    color: #4B9CD3;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
 .icon-big {
     font-size: 350%;
     display: block;
