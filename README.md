@@ -1,3 +1,6 @@
+# Website
+* https://pnclose.github.io/carolinachessclub/
+
 # About
 
 * write email to president for whether gmail is taken
