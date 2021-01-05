@@ -383,19 +383,35 @@ center-calandar is to center the calendar, probably best to actually use grid, b
 
 .calendar-box {
     position: relative;
-    padding-bottom: 38%;
-    padding-top: 0px;
+    padding-bottom: 40%;
+    padding-top: 30px;
     height: 0;
     overflow: hidden;
 }
 
 .calendar-box iframe {
     position: absolute;
-    top: auto;
-    left: 0%;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
 }
+
+/* Phone */
+@media only screen and (max-width: 760px) {
+  .hidden-phone{
+   display: none;
+   }
+}
+
+/* Desktop */
+@media only screen and (min-width: 761px) {
+  .hidden-desktop{
+   display: none;
+   }
+}
+
+
 
 
 
