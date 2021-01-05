@@ -12,7 +12,6 @@
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
-
 	<link rel="stylesheet" type="text/css" href="vendors/fontawesome/css/all.css">
         <title>Carolina Chess Club</title>
         
@@ -315,13 +314,13 @@
                 <h2>We're happy to hear from you</h2>
             </div>
             <div class="row">
-                <form method="post" action="#" class="contact-form">
+		<form method="post" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdsV-g3N5xlDMN-7N_h3VpKjfeOifKuQQyPx3ETXLvss7opHw/formResponse" class="contact-form">
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label for="name">Name</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                            <input type="text" name="entry.263322506" id="name" placeholder="Your name" required>
                         </div>
                     </div>
                     <div class="row">
@@ -329,7 +328,7 @@
                             <label for="email">Email</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                            <input type="email" name="entry.1485218041" id="email" placeholder="Your email" required>
                         </div>
                     </div>
                     <div class="row">
@@ -337,9 +336,10 @@
                             <label for="find-us">How did you find us?</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <select name="find-us" id="find-us">
+                            <select name="entry.696054796" id="find-us">
                                 <option value="friends" selected>Friends</option>
                                 <option value="search">Search engine</option>
+                                <option value="ad">Heellife</option>
                                 <option value="ad">Campus flyer</option>
                                 <option value="other">Other</option>
                             </select>
@@ -350,7 +350,7 @@
                             <label>Become a member?</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="checkbox" name="news" id="news" checked> Yes, please
+                            <input type="checkbox" name="entry.703480528" id="member" checked> Yes, please
                         </div>
                     </div>
                     <div class="row">
@@ -358,7 +358,7 @@
                             <label>Drop us a line</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <textarea name="message" placeholder="Your message"></textarea>
+                            <textarea name="entry.415845246" placeholder="Your message"></textarea>
                         </div>
                     </div>
                     <div class="row">
@@ -366,7 +366,12 @@
                             <label>&nbsp;</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="submit" value="Send it!">
+                            <input type="submit" onClick="reload()" value="Send it!">
+								<script>
+								function reload() {
+									window.location.href="http://programminghead.com";
+								}
+								</script>
                         </div>
                     </div>
                     
