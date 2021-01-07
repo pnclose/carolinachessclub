@@ -417,7 +417,7 @@ center-calandar is to center the calendar, probably best to actually use grid, b
 
 .center-calendar-mobile {
     margin: auto;
-    width: 95%;
+    width: 90%;
     padding: 10px;
 }
 
