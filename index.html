@@ -10,7 +10,8 @@
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+		<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+		<!--<link rel="stylesheet" type="text/css" href="style.css">-->
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,300italic' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="vendors/fontawesome/css/all.css">
@@ -278,9 +279,11 @@
                 <h2>Games</h2>
             </div>
 	    <div class="row">
-		    <div class="col span-1-of-2 ">
+		    <div class="col span-1-of-2">
 			    <div class="game-box">
-					<iframe id="game-frame" width=600 height=371 src="https://lichess.org/study/embed/TaRX8ykX/fWtR8Ht2" frameborder=0></iframe>
+					<div>
+						<iframe id="game-frame" src="https://lichess.org/study/embed/TaRX8ykX/fWtR8Ht2" frameborder=0></iframe>
+					</div>
 			    </div>
 		    </div>
 		    <div class="col span-1-of-2">
@@ -288,25 +291,10 @@
 				    <div>
 					    <ul>
 						    <li>Learn from the masters with our interactive chessboard!</li>
-					    </ul>
+							<li>Get involved with our club over at&nbsp;<a href="https://www.lichess.org/team/unc-ch-chess/">Lichess.org</a></li>
+							<li>Get updates about tournaments on our&nbsp;<a href="https://www.facebook.com/Carolina-Chess-Club-112354650468392/">Facebook</a></li>
+						</ul>
 				    </div>
-				    <div>
-					    <ul>
-						<li>Get involved with our club over at <a href="https://www.lichess.org/team/unc-ch-chess/">Lichess.org</a><li>
-					    </ul>
-				    </div>
-				    <div>
-					    <ul>
-							<li>Connect with us on <a href="https://www.facebook.com/Carolina-Chess-Club-112354650468392/">Facebook</a>
-					    </ul>
-				    </div>
-					<!--
-				    <div>
-					    <ul>
-							<li>Pick up the <a href="https://lichess.org/learn#/">basics</a> of the game</li>
-					    </ul>
-				    </div>
-					-->
 			    </div>
 		    </div>
 	    </div>
@@ -339,12 +327,16 @@
                             <label for="find-us">How did you find us?</label>
                         </div>
                         <div class="col span-2-of-3">
+                            <input type="text" name="entry.696054796" id="find-us" placeholder="" required>
+                        </div>
+						<!--	
+                        <div class="col span-2-of-3">
                             <select name="entry.696054796" id="find-us">
-                                <option value="friends" selected>Friends</option>
-                                <option value="search">Search engine</option>
-                                <option value="ad">Heellife</option>
-                                <option value="ad">Campus flyer</option>
-                                <option value="other">Other</option>
+                                <option value="Friends" selected>Friends</option>
+                                <option value="Search">Search engine</option>
+                                <option value="Heellife">Heellife</option>
+                                <option value="Campus flyer">Campus flyer</option>
+                                <option value="Other">Other</option>
                             </select>
                         </div>
                     </div>
@@ -353,9 +345,10 @@
                             <label>Become a member?</label>
                         </div>
                         <div class="col span-2-of-3">
-                            <input type="checkbox" name="entry.703480528" id="member" checked> Yes, please
+                            <input type="checkbox" name="entry.703480528" id="member" value="" checked> Yes, please
                         </div>
                     </div>
+						-->
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label>Drop us a line</label>

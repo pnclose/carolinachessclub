@@ -446,8 +446,6 @@ center-calandar is to center the calendar, probably best to actually use grid, b
 @media only screen and (max-width: 760px) {
     .hidden-phone{   
     display: none;
-    
-      
    }
 }
 
@@ -596,8 +594,7 @@ cite img {
 .game-box {
 	position: relative;
 	padding-bottom: 56.25%;
-	padding-top: 0px;
-	height: 0;
+	width: 100%;
 	overflow: hidden;
 }
 
@@ -609,23 +606,26 @@ cite img {
 	height: 100%;
 }
 
-.game-text-box {
-    background-color: #fff;
-    border-radius: 5px;
-    width: 90%;
-    margin-left: 5%;
-    box-shadow: 0 2px 2px #efefef;
-}
-
-.game-text-box div {
-    padding: 5.875%;
+.game-box div {
+    padding-right: 5.875%;
+    padding-left: 5.875%;
     border-bottom: 1px solid #e8e8e8;
 }
 
-.game-text-box div:first-child {
-    background-color: #fcfcfc;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+@media only screen and (max-width: 760px) {
+	.game-box {
+		overflow: scroll;
+	}
+	.game-box iframe {
+		width: 115%;
+	}
+}
+
+.game-text-box {
+    background-color: #fff;
+    border-radius: 0px;
+    box-shadow: 0 2px 2px #efefef;
+	padding: 0;
 }
 
 .game-text-box ul {
@@ -633,7 +633,14 @@ cite img {
 }
 
 .game-text-box ul li {
-    padding: 5px 0;
+	display: flex;
+	padding-top: calc((18.75% - (5.875%/2.25))/2);
+	padding-bottom: calc((18.75% - (5.875%/2.25))/2);
+	border-bottom: 1px solid #555;
+}
+
+.game-text-box ul li:last-child {
+	border-bottom: none;
 }
 
 
