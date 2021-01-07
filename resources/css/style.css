@@ -435,8 +435,10 @@ center-calandar is to center the calendar, probably best to actually use grid, b
 
 /* Phone */
 @media only screen and (max-width: 760px) {
-  .hidden-phone{
-   display: none;
+    .hidden-phone{   
+    display: none;
+    
+      
    }
 }
 
