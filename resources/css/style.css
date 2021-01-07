@@ -409,20 +409,29 @@ header {
 center-calandar is to center the calendar, probably best to actually use grid, but for testing use this
 */
 
-.center-calendar {
+.center-calendar-desktop {
     margin: auto;
     width: 50%;
     padding: 10px;
+    padding-bottom: 40%;
+}
+
+.center-calendar-mobile {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+    padding-bottom: 100%;    
 }
 
 /* Responsive iFrame */
 
 .calendar-box {
     position: relative;
-    padding-bottom: 40%;
+    
     padding-top: 30px;
     height: 0;
     overflow: hidden;
+    
 }
 
 .calendar-box iframe {
@@ -435,8 +444,10 @@ center-calandar is to center the calendar, probably best to actually use grid, b
 
 /* Phone */
 @media only screen and (max-width: 760px) {
-  .hidden-phone{
-   display: none;
+    .hidden-phone{   
+    display: none;
+    
+      
    }
 }
 
