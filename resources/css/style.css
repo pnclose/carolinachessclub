@@ -607,7 +607,7 @@ cite img {
 }
 
 .game-text-box div {
-    padding: 15px;
+    padding: 5.875%;
     border-bottom: 1px solid #e8e8e8;
 }
 
@@ -624,7 +624,6 @@ cite img {
 .game-text-box ul li {
     padding: 5px 0;
 }
-
 
 
 /* ----------------------------------------------- */
