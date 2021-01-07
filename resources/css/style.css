@@ -409,9 +409,15 @@ header {
 center-calandar is to center the calendar, probably best to actually use grid, but for testing use this
 */
 
-.center-calendar {
+.center-calendar-desktop {
     margin: auto;
     width: 50%;
+    padding: 10px;
+}
+
+.center-calendar-mobile {
+    margin: auto;
+    width: 95%;
     padding: 10px;
 }
 
